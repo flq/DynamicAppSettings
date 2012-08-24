@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>DynamicAppSettings</id>
+    <version>1.0.0</version>
+    <title>Dynamic access to Application Settings</title>
+    <authors>Frank Quednau</authors>
+    <owners>Frank Quednau</owners>
+    <licenseUrl>http://www.opensource.org/licenses/apache2.0</licenseUrl>
+    <projectUrl>http://github.com/flq/DynamicAppSettings</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package gives you dynamic access to your AppSettings or some other arbitrary NameValueCollection.</description>
+    <summary>
+        This package gives you dynamic access to your AppSettings or some other arbitrary NameValueCollection. It supports nesting a la Server.Port, Server.Address
+        and allows casting to other types by writing e.g. int port = Settings.Server.Port - the functionality is based on TypeConverters, therefore a QuickConverter
+        is provided as a base class for your convenience.
+    </summary>
+    <copyright>Copyright 2012</copyright>
+    <tags>AppSettings dynamic configuration</tags>
+  </metadata>
+</package>
